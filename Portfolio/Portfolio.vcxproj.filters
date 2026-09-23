@@ -30,5 +30,11 @@
     <ClCompile Include="src\resources\signal.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\features\scene.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

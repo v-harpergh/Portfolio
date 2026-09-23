@@ -6,13 +6,15 @@
 import rendering;
 import constants;
 
+import features.scene;
+
 using SteadyClock = std::chrono::steady_clock;
 using TimePoint = SteadyClock::time_point;
 
 void rendering::initialize() {
 	TimePoint lastRefresh = SteadyClock::now();
 
-	InitWindow(constants::window::x, constants::window::y, "Submarine Adventure");
+	InitWindow(constants::window::x, constants::window::y, constants::title.data());
 	SetTargetFPS(60);
 
     while (!WindowShouldClose())
@@ -24,7 +26,7 @@ void rendering::initialize() {
 
         BeginDrawing();
 
-        onRender.Fire(deltaTime);
+        scene::draw(deltaTime);
 
         EndDrawing();
     }
