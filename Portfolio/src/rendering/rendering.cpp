@@ -7,6 +7,7 @@ import rendering;
 import constants;
 
 import features.scene;
+import features.character;
 
 using SteadyClock = std::chrono::steady_clock;
 using TimePoint = SteadyClock::time_point;

@@ -169,6 +169,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\constants.ixx" />
+    <ClCompile Include="src\features\character.cpp" />
+    <ClCompile Include="src\features\character.ixx" />
     <ClCompile Include="src\features\scene.cpp" />
     <ClCompile Include="src\features\scene.ixx" />
     <ClCompile Include="src\main.cpp" />
