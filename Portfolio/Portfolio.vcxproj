@@ -169,14 +169,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\constants.ixx" />
-    <ClCompile Include="src\features\character.cpp" />
-    <ClCompile Include="src\features\character.ixx" />
+    <ClCompile Include="src\features\player.cpp" />
+    <ClCompile Include="src\features\player.ixx" />
     <ClCompile Include="src\features\scene.cpp" />
     <ClCompile Include="src\features\scene.ixx" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\rendering\rendering.cpp" />
     <ClCompile Include="src\rendering\rendering.ixx" />
     <ClCompile Include="src\resources\signal.ixx" />
+    <ClCompile Include="src\resources\windows.ixx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

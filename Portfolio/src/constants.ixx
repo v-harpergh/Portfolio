@@ -16,6 +16,7 @@ constexpr int y = 360;
 } // namespace window
 
 constexpr int tile_size = 40;
+constexpr float player_speed = 65.0f;
 
 
 } // namespace constants

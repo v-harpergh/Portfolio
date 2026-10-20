@@ -36,10 +36,13 @@
     <ClCompile Include="src\features\scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\features\character.ixx">
+    <ClCompile Include="src\features\player.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\features\character.cpp">
+    <ClCompile Include="src\features\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resources\windows.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
